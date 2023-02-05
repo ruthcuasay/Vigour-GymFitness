@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Architects Daughter', cursive;
+font-family: 'Spectral', serif;
+}
+.row{
+  display: flex;
+  height: 88%;
+  background: #616161;
+  border-radius: 15px;
+  padding: 10px;
+}
+.col{
+  flex-basis: 50%;
+}
+h1{
+  color: #fff;
+  font-size: 100px;
+}
+p{
+  color: #fff;
+  line-height: 20px;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 5px 10px;
+  background-position: center;
+  background-size: cover;
+  transform: 0.5s;
+}
+.card1{
+  background-image: url(fitness15.jpg);
+}
+.card2{
+  background-image: url(fitness9.jpg);
+}
+.card3{
+  background-image: url(fitness8.jpg);
+}
+.card4{
+  background-image: url(fitness12.jpg);
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  font-size: 15px;
+}
+p{
+  color:#fff;
+  text-shadow: 0 0 15px #000;
+  font-size:18px;
+  padding: 5px 10px;
+  text-align: justify;
+}
+.menu ul li
+{
+  list-style: none;
+  height: 50px;
+
+}
